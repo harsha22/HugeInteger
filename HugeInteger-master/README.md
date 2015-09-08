@@ -15,13 +15,3 @@ URIs:
 **/sub** - to subtract from another HugeInteger <br/>
 **/toString** - returns the stored HugeInteger <br/>
 
-Note: /add & /sub modify the original HugeInteger. Use Carefully! <br/>
-
-Usages:
-==============================
-
-Sample Input: **http://localhost:8080/HugeInteger?integer=123&operation=isZero**  Output: **false** <br/>
-Sample Input: **http://localhost:8080/HugeInteger?integer=123&operation=isGreaterThan&compare=231**  Output:**false** <br/>
-Sample Input: **http://localhost:8080/add?integer=123&addTo=11** Output:**134** <br/>
-Sample Input: **http://localhost:8080/toString** Output:**144** <br/>
-
